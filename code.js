@@ -7,5 +7,5 @@ var oranumDivs = new Array(
 
 function choosePic() {
   var randomNum = Math.floor(Math.random() * oranumDivs.length);
-  document.getElementById("oranum").src = oranumDivs[randomNum].divlink;
+  document.getElementById("WOW123").src = oranumDivs[randomNum].divlink;
 }
