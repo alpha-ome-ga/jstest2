@@ -20,7 +20,7 @@ var oranumDivs = new Array(
 "//pt.potwmora.com/embed/livefeed/141?site=oranum&psid=bLU3i224&pstool=600_141&psprogram=revs&campaign_id=&subaffid={SUBAFFID}&ms_notrack=1",
 "//pt.potwmora.com/embed/livefeed/151?site=oranum&psid=bLU3i224&pstool=600_151&psprogram=revs&campaign_id=&subaffid={SUBAFFID}&ms_notrack=1",
 "//pt.potwmora.com/embed/livefeed/143?site=oranum&psid=bLU3i224&pstool=600_143&psprogram=revs&campaign_id=&subaffid={SUBAFFID}&ms_notrack=1",
-"//pt.potwmora.com/embed/livefeed/153?site=oranum&psid=bLU3i224&pstool=600_153&psprogram=revs&campaign_id=&subaffid={SUBAFFID}&ms_notrack=1
+"//pt.potwmora.com/embed/livefeed/153?site=oranum&psid=bLU3i224&pstool=600_153&psprogram=revs&campaign_id=&subaffid={SUBAFFID}&ms_notrack=1"
   }
 )
 
