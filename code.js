@@ -1,1 +1,30 @@
-var _0x2682b8=_0x2fc3;function _0x2fc3(_0x27aaf1,_0x2967e0){var _0x11dfeb=_0x11df();return _0x2fc3=function(_0x2fc33e,_0x2f84ad){_0x2fc33e=_0x2fc33e-0x1ce;var _0x54e6f0=_0x11dfeb[_0x2fc33e];return _0x54e6f0;},_0x2fc3(_0x27aaf1,_0x2967e0);}(function(_0x8b05c,_0x166cae){var _0x3594e6=_0x2fc3,_0x5027e4=_0x8b05c();while(!![]){try{var _0x4a335b=parseInt(_0x3594e6(0x1d7))/0x1+-parseInt(_0x3594e6(0x1e1))/0x2*(parseInt(_0x3594e6(0x1de))/0x3)+parseInt(_0x3594e6(0x1d9))/0x4+-parseInt(_0x3594e6(0x1e6))/0x5+-parseInt(_0x3594e6(0x1e7))/0x6+-parseInt(_0x3594e6(0x1df))/0x7*(parseInt(_0x3594e6(0x1dd))/0x8)+-parseInt(_0x3594e6(0x1cf))/0x9*(-parseInt(_0x3594e6(0x1d8))/0xa);if(_0x4a335b===_0x166cae)break;else _0x5027e4['push'](_0x5027e4['shift']());}catch(_0x174479){_0x5027e4['push'](_0x5027e4['shift']());}}}(_0x11df,0x50016),window[_0x2682b8(0x1d6)]=choosePic);var myImgsA=new Array({'imgLink':_0x2682b8(0x1d5),'affLink':_0x2682b8(0x1dc)},{'imgLink':'https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500','affLink':_0x2682b8(0x1da)},{'imgLink':_0x2682b8(0x1e8),'affLink':'https://www.youtube.com'}),myImgsB=new Array({'imgLink':_0x2682b8(0x1d5),'affLink':_0x2682b8(0x1dc)},{'imgLink':_0x2682b8(0x1db),'affLink':_0x2682b8(0x1da)},{'imgLink':_0x2682b8(0x1e8),'affLink':'https://www.youtube.com'});function _0x11df(){var _0xdeb88c=['3666808iHshqp','12EIbgRL','7aBoNqa','floor','70822DwBqaA','imgLink','myPicture2','src','random','1174140xLtcEX','1823376nDhqxv','https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500','length','120951PAuRDU','getElementById','myLink2','href','myLink1','affLink','https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500','onload','136777HEBBXq','630mLZxmB','1931948uZCmBr','https://www.google.com','https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500','https://www.gmail.com'];_0x11df=function(){return _0xdeb88c;};return _0x11df();}function choosePic(){var _0x2d1637=_0x2682b8,_0x45e4c6=Math['floor'](Math[_0x2d1637(0x1e5)]()*myImgsA['length']);document[_0x2d1637(0x1d0)]('myPicture1')[_0x2d1637(0x1e4)]=myImgsA[_0x45e4c6][_0x2d1637(0x1e2)],document[_0x2d1637(0x1d0)](_0x2d1637(0x1d3))[_0x2d1637(0x1d2)]=myImgsA[_0x45e4c6][_0x2d1637(0x1d4)];var _0x45e4c6=Math[_0x2d1637(0x1e0)](Math[_0x2d1637(0x1e5)]()*myImgsB[_0x2d1637(0x1ce)]);document['getElementById'](_0x2d1637(0x1e3))[_0x2d1637(0x1e4)]=myImgsB[_0x45e4c6][_0x2d1637(0x1e2)],document[_0x2d1637(0x1d0)](_0x2d1637(0x1d1))[_0x2d1637(0x1d2)]=myImgsB[_0x45e4c6]['affLink'];}
+window.onload = choosePic;
+
+var oranumDivs = new Array(
+  {divLink:"//pt.potwmora.com/embed/livefeed/212?site=oranum&psid=bLU3i224&pstool=600_212&psprogram=revs&campaign_id=&subaffid={SUBAFFID}&ms_notrack=1",
+divLink:"//pt.potwmora.com/embed/livefeed/036?site=oranum&psid=bLU3i224&pstool=600_036&psprogram=revs&campaign_id=&subaffid={SUBAFFID}&ms_notrack=1",
+divLink:"//pt.potwmora.com/embed/livefeed/050?site=oranum&psid=bLU3i224&pstool=600_050&psprogram=revs&campaign_id=&subaffid={SUBAFFID}&ms_notrack=1",
+divLink:"//pt.potwmora.com/embed/livefeed/047?site=oranum&psid=bLU3i224&pstool=600_047&psprogram=revs&campaign_id=&subaffid={SUBAFFID}&ms_notrack=1",
+divLink:"//pt.potwmora.com/embed/livefeed/053?site=oranum&psid=bLU3i224&pstool=600_053&psprogram=revs&campaign_id=&subaffid={SUBAFFID}&ms_notrack=1",
+divLink:"//pt.potwmora.com/embed/livefeed/046?site=oranum&psid=bLU3i224&pstool=600_046&psprogram=revs&campaign_id=&subaffid={SUBAFFID}&ms_notrack=1",
+divLink:"//pt.potwmora.com/embed/livefeed/052?site=oranum&psid=bLU3i224&pstool=600_052&psprogram=revs&campaign_id=&subaffid={SUBAFFID}&ms_notrack=1",
+divLink:"//pt.potwmora.com/embed/livefeed/049?site=oranum&psid=bLU3i224&pstool=600_049&psprogram=revs&campaign_id=&subaffid={SUBAFFID}&ms_notrack=1",
+divLink:"//pt.potwmora.com/embed/livefeed/055?site=oranum&psid=bLU3i224&pstool=600_055&psprogram=revs&campaign_id=&subaffid={SUBAFFID}&ms_notrack=1",
+divLink:"//pt.potwmora.com/embed/livefeed/069?site=oranum&psid=bLU3i224&pstool=600_069&psprogram=revs&campaign_id=&subaffid={SUBAFFID}&ms_notrack=1",
+divLink:"//pt.potwmora.com/embed/livefeed/352?site=oranum&psid=bLU3i224&pstool=600_352&psprogram=revs&campaign_id=&subaffid={SUBAFFID}&ms_notrack=1",
+divLink:"//pt.potwmora.com/embed/livefeed/070?site=oranum&psid=bLU3i224&pstool=600_070&psprogram=revs&campaign_id=&subaffid={SUBAFFID}&ms_notrack=1",
+divLink:"//pt.potwmora.com/embed/livefeed/149?site=oranum&psid=bLU3i224&pstool=600_149&psprogram=revs&campaign_id=&subaffid={SUBAFFID}&ms_notrack=1",
+divLink:"//pt.potwmora.com/embed/livefeed/147?site=oranum&psid=bLU3i224&pstool=600_147&psprogram=revs&campaign_id=&subaffid={SUBAFFID}&ms_notrack=1",
+divLink:"//pt.potwmora.com/embed/livefeed/145?site=oranum&psid=bLU3i224&pstool=600_145&psprogram=revs&campaign_id=&subaffid={SUBAFFID}&ms_notrack=1",
+divLink:"//pt.potwmora.com/embed/livefeed/155?site=oranum&psid=bLU3i224&pstool=600_155&psprogram=revs&campaign_id=&subaffid={SUBAFFID}&ms_notrack=1",
+divLink:"//pt.potwmora.com/embed/livefeed/141?site=oranum&psid=bLU3i224&pstool=600_141&psprogram=revs&campaign_id=&subaffid={SUBAFFID}&ms_notrack=1",
+divLink:"//pt.potwmora.com/embed/livefeed/151?site=oranum&psid=bLU3i224&pstool=600_151&psprogram=revs&campaign_id=&subaffid={SUBAFFID}&ms_notrack=1",
+divLink:"//pt.potwmora.com/embed/livefeed/143?site=oranum&psid=bLU3i224&pstool=600_143&psprogram=revs&campaign_id=&subaffid={SUBAFFID}&ms_notrack=1",
+divLink:"//pt.potwmora.com/embed/livefeed/153?site=oranum&psid=bLU3i224&pstool=600_153&psprogram=revs&campaign_id=&subaffid={SUBAFFID}&ms_notrack=1"
+  }
+)
+
+function choosePic() {
+  var randomNum = Math.floor(Math.random() * oranumDivs.length);
+  document.getElementById("oranum").src = oranumDivs[randomNum].divLink
+}
