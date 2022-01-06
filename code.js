@@ -7,5 +7,5 @@ var oranumDivs = new Array(
 
 function choosePic() {
   var randomNum = Math.floor(Math.random() * oranumDivs.length);
-  document.getElementById("oranum_livefeed_container").src = oranumDivs[randomNum].divlink;
+  document.getElementById("oranum").src = oranumDivs[randomNum].divlink;
 }
