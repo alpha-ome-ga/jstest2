@@ -1,7 +1,7 @@
 window.onload = choosePic;
 
 var oranumDivs = new Array(
-  {divlink:"//pt.potwmora.com/embed/livefeed/212?site=oranum&psid=bLU3i224&pstool=600_212&psprogram=revs&campaign_id=&subaffid={SUBAFFID}&ms_notrack=1",
+  {divlink:"https://central.ck-cdn.com/fiverr/2021-04-08/General-300x250-A_ee088cbb.jpg",
   }
 )
 
