@@ -26,5 +26,5 @@ divLink:"//pt.potwmora.com/embed/livefeed/153?site=oranum&psid=bLU3i224&pstool=6
 
 function choosePic() {
   var randomNum = Math.floor(Math.random() * oranumDivs.length);
-  document.getElementById("oranum").src = oranumDivs[randomNum].divLink
+  document.getElementById("oranum").src = oranumDivs[randomNum].divLink;
 }
