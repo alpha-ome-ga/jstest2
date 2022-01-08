@@ -1,4 +1,4 @@
-window.onload = nmsChoose;
+window.onload = ftzaChoose;
 
   var common30x25 = new Array(
   {imgLink:"https://www.ledgerwallet.com/affiliate/image/250/100", affLink:"https://bit.ly/32IYH36"},
@@ -36,47 +36,22 @@ window.onload = nmsChoose;
   {imgLink:"https://i.ibb.co/8bJJLkb/PLOLifestyle-8-Slider.jpg", affLink:"https://bit.ly/3FYqKK8"},
   {imgLink:"https://i.ibb.co/7VVTqjQ/PLOLifestyle-9-Slider.jpg", affLink:"https://bit.ly/3FYqKK8"})
   
-  var nms30x25 = new Array(
-    {imgLink:"https://callofdestiny.org/affiliate/uploads/5.jpg", affLink:"https://bit.ly/3wTFTYc"},
-    {imgLink:"https://callofdestiny.org/affiliate/uploads/5a.jpg", affLink:"https://bit.ly/3wTFTYc"},
-    {imgLink:"https://i.ibb.co/JvK0mjs/Banner3-300x250.jpg", affLink:"https://bit.ly/3wTFTYc"},
-    {imgLink:"https://i.ibb.co/tmkSgpF/Banner4-300x250.jpg", affLink:"https://bit.ly/3wTFTYc"},
-    {imgLink:"https://i.ibb.co/R0b6NGQ/Banner13-300x250.jpg", affLink:"https://bit.ly/3wTFTYc"},
-    {imgLink:"https://i.ibb.co/dpkYWRj/New-Astrology-Banner01-300x250.jpg", affLink:"https://bit.ly/3wTFTYc"},
-    {imgLink:"https://i.ibb.co/7gYpgRB/New-Astrology-Banner06-300x250.jpg", affLink:"https://bit.ly/3wTFTYc"},
-    {imgLink:"https://i.ibb.co/DYvWQGn/New-Astrology-Banner07-300x250.jpg", affLink:"https://bit.ly/3wTFTYc"},
-    {imgLink:"https://i.ibb.co/LC9S2y9/New-Astrology-Banner08-300x250.jpg", affLink:"https://bit.ly/3wTFTYc"},
-    {imgLink:"https://www.individualogist.com/affiliate/assets/img/banner-300x250.png", affLink:"https://bit.ly/3HSoFjB"})
+  var ftza30x25 = new Array(
+    {imgLink:"https://i.ibb.co/Lg2S89X/300x250-1.jpg", affLink:"https://bit.ly/3eSwdWX"},
+    {imgLink:"https://i.ibb.co/GM8kXm2/300x250-2.jpg", affLink:"https://bit.ly/3eSwdWX"},
+    {imgLink:"https://i.ibb.co/xMnRc4c/300x250.png", affLink:"https://bit.ly/3zsaVsG"},
+    {imgLink:"https://i.ibb.co/gM0QPYY/300x2501.png", affLink:"https://bit.ly/3zsaVsG"},
+    {imgLink:"https://i.ibb.co/5nJLV7x/300x2502.png", affLink:"https://bit.ly/3zsaVsG"})
     
-    var nms25x25 = new Array(
-    {imgLink:"https://callofdestiny.org/affiliate/uploads/4.jpg", affLink:"https://bit.ly/3wTFTYc"},
-    {imgLink:"https://callofdestiny.org/affiliate/uploads/4a.jpg", affLink:"https://bit.ly/3wTFTYc"},
-    {imgLink:"https://i.ibb.co/S0mNd53/Banner3-250x250.jpg", affLink:"https://bit.ly/3wTFTYc"},
-    {imgLink:"https://i.ibb.co/bNZn1FL/Banner4-250x250.jpg", affLink:"https://bit.ly/3wTFTYc"},
-    {imgLink:"https://i.ibb.co/cNdXcBG/Banner13-250x250.jpg", affLink:"https://bit.ly/3wTFTYc"},
-    {imgLink:"https://i.ibb.co/M1NxJGk/New-Astrology-Banner01-250x250.jpg", affLink:"https://bit.ly/3wTFTYc"},
-    {imgLink:"https://i.ibb.co/2SfB0pB/New-Astrology-Banner06-250x250.jpg", affLink:"https://bit.ly/3wTFTYc"},
-    {imgLink:"https://i.ibb.co/sFWtbzP/New-Astrology-Banner07-250x250.jpg", affLink:"https://bit.ly/3wTFTYc"},
-    {imgLink:"https://i.ibb.co/h7278kk/New-Astrology-Banner08-250x250.jpg", affLink:"https://bit.ly/3wTFTYc"},
-    {imgLink:"https://www.individualogist.com/affiliate/assets/img/banner-250x250.png", affLink:"https://bit.ly/3HSoFjB"})
-    
-    var nmssolos = new Array(
-    {imgLink:"https://i.ibb.co/tL4d5gM/Banner3-336x280.jpg", affLink:"https://bit.ly/3wTFTYc"},
-    {imgLink:"https://i.ibb.co/nnmm1g2/Banner4-336x280.jpg", affLink:"https://bit.ly/3wTFTYc"},
-    {imgLink:"https://i.ibb.co/qYxFCbP/Banner13-336x280.jpg", affLink:"https://bit.ly/3wTFTYc"},
-    {imgLink:"https://i.ibb.co/YjCDKtL/New-Astrology-Banner01-336x280.jpg", affLink:"https://bit.ly/3wTFTYc"},
-    {imgLink:"https://i.ibb.co/6v91Kkh/New-Astrology-Banner06-336x280.jpg", affLink:"https://bit.ly/3wTFTYc"},
-    {imgLink:"https://i.ibb.co/r30yShj/New-Astrology-Banner07-336x280.jpg", affLink:"https://bit.ly/3wTFTYc"},
-    {imgLink:"https://i.ibb.co/W3RtGzr/New-Astrology-Banner08-336x280.jpg", affLink:"https://bit.ly/3wTFTYc"},
-    {imgLink:"https://callofdestiny.org/affiliate/uploads/9.jpg", affLink:"https://bit.ly/3wTFTYc"},
-    {imgLink:"https://callofdestiny.org/affiliate/uploads/9a.jpg", affLink:"https://bit.ly/3wTFTYc"})
-    
-    var nmsfooter = new Array(
-    {imgLink:"https://i.ibb.co/bm5vbKD/1200x628.jpg", affLink:"https://bit.ly/3wTFTYc"},
-    {imgLink:"https://i.ibb.co/g3S66gt/970x250.jpg", affLink:"https://bit.ly/3wTFTYc"})
+    var ftzafooter = new Array(
+    {imgLink:"https://i.ibb.co/4ppzdLV/728x90-1.jpg", affLink:"https://bit.ly/3eSwdWX"},
+    {imgLink:"https://i.ibb.co/LSzmPYR/728x90-2.jpg", affLink:"https://bit.ly/3eSwdWX"},
+    {imgLink:"https://i.ibb.co/Qbj8cX3/728x90.png", affLink:"https://bit.ly/3zsaVsG"},
+    {imgLink:"https://i.ibb.co/N3yVSrS/728x901.png", affLink:"https://bit.ly/3zsaVsG"},
+    {imgLink:"https://i.ibb.co/5MCVhtt/728x902.png", affLink:"https://bit.ly/3zsaVsG"})
     
 
-function nmsChoose() {
+function ftzaChoose() {
   var randomNum = Math.floor(Math.random() * common30x25.length);
   document.getElementById("325ca1").src = common30x25[randomNum].imgLink;
   document.getElementById("325ca1l").href = common30x25[randomNum].affLink;
@@ -107,52 +82,25 @@ function nmsChoose() {
   var randomNum = Math.floor(Math.random() * commonSolos.length);
   document.getElementById("scc").src = commonSolos[randomNum].imgLink;
   document.getElementById("sccl").href = commonSolos[randomNum].affLink;
-  var randomNum = Math.floor(Math.random() * nms30x25.length);
-  document.getElementById("325na1").src = nms30x25[randomNum].imgLink;
-  document.getElementById("325na1l").href = nms30x25[randomNum].affLink;
-  var randomNum = Math.floor(Math.random() * nms30x25.length);
-  document.getElementById("325na2").src = nms30x25[randomNum].imgLink;
-  document.getElementById("325na2l").href = nms30x25[randomNum].affLink;
-  var randomNum = Math.floor(Math.random() * nms30x25.length);
-  document.getElementById("325nb1").src = nms30x25[randomNum].imgLink;
-  document.getElementById("325nb1l").href = nms30x25[randomNum].affLink;
-  var randomNum = Math.floor(Math.random() * nms30x25.length);
-  document.getElementById("325nb2").src = nms30x25[randomNum].imgLink;
-  document.getElementById("325nb2l").href = nms30x25[randomNum].affLink;
-  var randomNum = Math.floor(Math.random() * nms30x25.length);
-  document.getElementById("325nc1").src = nms30x25[randomNum].imgLink;
-  document.getElementById("325nc1l").href = nms30x25[randomNum].affLink;
-  var randomNum = Math.floor(Math.random() * nms30x25.length);
-  document.getElementById("325nc2").src = nms30x25[randomNum].imgLink;
-  document.getElementById("325nc2l").href = nms30x25[randomNum].affLink;
-  var randomNum = Math.floor(Math.random() * nms25x25.length);
-  document.getElementById("25na1").src = nms25x25[randomNum].imgLink;
-  document.getElementById("25na1l").href = nms25x25[randomNum].affLink;
-  var randomNum = Math.floor(Math.random() * nms25x25.length);
-  document.getElementById("25na2").src = nms25x25[randomNum].imgLink;
-  document.getElementById("25na2l").href = nms25x25[randomNum].affLink;
-  var randomNum = Math.floor(Math.random() * nms25x25.length);
-  document.getElementById("25nb1").src = nms25x25[randomNum].imgLink;
-  document.getElementById("25nb1l").href = nms25x25[randomNum].affLink;
-  var randomNum = Math.floor(Math.random() * nms25x25.length);
-  document.getElementById("25nb2").src = nms25x25[randomNum].imgLink;
-  document.getElementById("25nb2l").href = nms25x25[randomNum].affLink;
-  var randomNum = Math.floor(Math.random() * nms25x25.length);
-  document.getElementById("25nc1").src = nms25x25[randomNum].imgLink;
-  document.getElementById("25nc1l").href = nms25x25[randomNum].affLink;
-  var randomNum = Math.floor(Math.random() * nms25x25.length);
-  document.getElementById("25nc2").src = nms25x25[randomNum].imgLink;
-  document.getElementById("25nc2l").href = nms25x25[randomNum].affLink;
-  var randomNum = Math.floor(Math.random() * nmssolos.length);
-  document.getElementById("sna").src = nmssolos[randomNum].imgLink;
-  document.getElementById("snal").href = nmssolos[randomNum].affLink;
-  var randomNum = Math.floor(Math.random() * nmssolos.length);
-  document.getElementById("snb").src = nmssolos[randomNum].imgLink;
-  document.getElementById("snbl").href = nmssolos[randomNum].affLink;
-  var randomNum = Math.floor(Math.random() * nmssolos.length);
-  document.getElementById("snc").src = nmssolos[randomNum].imgLink;
-  document.getElementById("sncl").href = nmssolos[randomNum].affLink;
-  var randomNum = Math.floor(Math.random() * nmsfooter.length);
-  document.getElementById("fna").src = nmsfooter[randomNum].imgLink;
-  document.getElementById("fnal").href = nmsfooter[randomNum].affLink;  
+  var randomNum = Math.floor(Math.random() * ftza30x25.length);
+  document.getElementById("325ftzaa1").src = ftza30x25[randomNum].imgLink;
+  document.getElementById("325ftzaa1l").href = ftza30x25[randomNum].affLink;
+  var randomNum = Math.floor(Math.random() * ftza30x25.length);
+  document.getElementById("325ftzaa2").src = ftza30x25[randomNum].imgLink;
+  document.getElementById("325ftzaa2l").href = ftza30x25[randomNum].affLink;
+  var randomNum = Math.floor(Math.random() * ftza30x25.length);
+  document.getElementById("325ftzab1").src = ftza30x25[randomNum].imgLink;
+  document.getElementById("325ftzab1l").href = ftza30x25[randomNum].affLink;
+  var randomNum = Math.floor(Math.random() * ftza30x25.length);
+  document.getElementById("325ftzab2").src = ftza30x25[randomNum].imgLink;
+  document.getElementById("325ftzab2l").href = ftza30x25[randomNum].affLink;
+  var randomNum = Math.floor(Math.random() * ftza30x25.length);
+  document.getElementById("325ftzac1").src = ftza30x25[randomNum].imgLink;
+  document.getElementById("325ftzac1l").href = ftza30x25[randomNum].affLink;
+  var randomNum = Math.floor(Math.random() * ftza30x25.length);
+  document.getElementById("325ftzac2").src = ftza30x25[randomNum].imgLink;
+  document.getElementById("325ftzac2l").href = ftza30x25[randomNum].affLink;
+  var randomNum = Math.floor(Math.random() * ftzafooter.length);
+  document.getElementById("fftzaa").src = ftzafooter[randomNum].imgLink;
+  document.getElementById("fftzaal").href = ftzafooter[randomNum].affLink;  
 }
