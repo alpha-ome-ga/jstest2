@@ -1,4 +1,4 @@
-window.onload = ftzaChoose;
+window.onload = ztcrChoose;
 
   var common30x25 = new Array(
   {imgLink:"https://www.ledgerwallet.com/affiliate/image/250/100", affLink:"https://bit.ly/32IYH36"},
@@ -36,22 +36,47 @@ window.onload = ftzaChoose;
   {imgLink:"https://i.ibb.co/8bJJLkb/PLOLifestyle-8-Slider.jpg", affLink:"https://bit.ly/3FYqKK8"},
   {imgLink:"https://i.ibb.co/7VVTqjQ/PLOLifestyle-9-Slider.jpg", affLink:"https://bit.ly/3FYqKK8"})
   
-  var ftza30x25 = new Array(
-    {imgLink:"https://i.ibb.co/Lg2S89X/300x250-1.jpg", affLink:"https://bit.ly/3eSwdWX"},
-    {imgLink:"https://i.ibb.co/GM8kXm2/300x250-2.jpg", affLink:"https://bit.ly/3eSwdWX"},
-    {imgLink:"https://i.ibb.co/xMnRc4c/300x250.png", affLink:"https://bit.ly/3zsaVsG"},
-    {imgLink:"https://i.ibb.co/gM0QPYY/300x2501.png", affLink:"https://bit.ly/3zsaVsG"},
-    {imgLink:"https://i.ibb.co/5nJLV7x/300x2502.png", affLink:"https://bit.ly/3zsaVsG"})
+  var ztcr30x25 = new Array(
+    {imgLink:"https://i.ibb.co/chJJs37/Image-1-300x250.png", affLink:"https://bit.ly/3ePUoFB"},
+    {imgLink:"https://i.ibb.co/5TBfJdP/Image-2-300x250.png", affLink:"https://bit.ly/3ePUoFB"},
+    {imgLink:"https://i.ibb.co/HP8v25k/Image-3-300x250.png", affLink:"https://bit.ly/3ePUoFB"},
+    {imgLink:"https://i.ibb.co/dgNT2D9/Image-4-300x250.png", affLink:"https://bit.ly/3ePUoFB"},
+    {imgLink:"https://i.ibb.co/vLZz36f/Image-5-300x250.png", affLink:"https://bit.ly/3ePUoFB"},
+    {imgLink:"https://www.forextriplehit.com/images/bnr-300x250.png", affLink:"https://bit.ly/3EUfJIf"},
+    {imgLink:"https://fiboquantum.com/banners/300-250.gif", affLink:"https://bit.ly/3FW4aSg"},
+    {imgLink:"https://fiboquantumscalper.com/banners/300-250.gif", affLink:"https://bit.ly/3pTqsyz"},
+    {imgLink:"https://www.dnascalper.com/banners/300-250.gif", affLink:"https://bit.ly/3FWROtl"},
+    {imgLink:"https://xtrendpremium.com/banners/300-250.gif", affLink:"https://bit.ly/34ps0rN"},
+    {imgLink:"https://www.forexmonarch.com/banners/300-250.gif", affLink:"https://bit.ly/3JG8wzb"},
+    {imgLink:"https://central.ck-cdn.com/fiverr/2021-04-08/General-300x250-A_ee088cbb.jpg", affLink:"https://bit.ly/3pUYSAX"},
+    {imgLink:"https://central.ck-cdn.com/fiverr/2021-04-08/General-300x250-A-1_588aaf4a.jpg", affLink:"https://bit.ly/3pUYSAX"})
     
-    var ftzafooter = new Array(
-    {imgLink:"https://i.ibb.co/4ppzdLV/728x90-1.jpg", affLink:"https://bit.ly/3eSwdWX"},
-    {imgLink:"https://i.ibb.co/LSzmPYR/728x90-2.jpg", affLink:"https://bit.ly/3eSwdWX"},
-    {imgLink:"https://i.ibb.co/Qbj8cX3/728x90.png", affLink:"https://bit.ly/3zsaVsG"},
-    {imgLink:"https://i.ibb.co/N3yVSrS/728x901.png", affLink:"https://bit.ly/3zsaVsG"},
-    {imgLink:"https://i.ibb.co/5MCVhtt/728x902.png", affLink:"https://bit.ly/3zsaVsG"})
+    var ztcrsolos = new Array(
+    {imgLink:"https://i.ibb.co/0q701M5/Image-1-1200x628.png", affLink:"https://bit.ly/3ePUoFB"},
+    {imgLink:"https://i.ibb.co/tDJB9Ps/Image-2-1200x628.png", affLink:"https://bit.ly/3ePUoFB"},
+    {imgLink:"https://i.ibb.co/zFvpFJr/Image-3-1200x628.png", affLink:"https://bit.ly/3ePUoFB"},
+    {imgLink:"https://i.ibb.co/TYsJ596/Image-4-1200x628.png", affLink:"https://bit.ly/3ePUoFB"},
+    {imgLink:"https://i.ibb.co/SBbSh45/Image-5-1200x628.png", affLink:"https://bit.ly/3ePUoFB"},
+    {imgLink:"https://central.ck-cdn.com/fiverr/2021-04-08/General_16X9_7894bae7.jpg", affLink:"https://bit.ly/3pUYSAX"},
+    {imgLink:"https://central.ck-cdn.com/fiverr/2021-04-08/General_16X9-1_c606993b.jpg", affLink:"https://bit.ly/3pUYSAX"})
+    
+    var ztcrfooter = new Array(
+    {imgLink:"https://i.ibb.co/jwvWbVd/Image-1-728x90-copy.png", affLink:"https://bit.ly/3ePUoFB"},
+    {imgLink:"https://i.ibb.co/vs4sfWC/Image-2-728x90.png", affLink:"https://bit.ly/3ePUoFB"},
+    {imgLink:"https://i.ibb.co/LQTprnw/Image-3-728x90.png", affLink:"https://bit.ly/3ePUoFB"},
+    {imgLink:"https://i.ibb.co/86QN56P/Image-4-728x90.png", affLink:"https://bit.ly/3ePUoFB"},
+    {imgLink:"https://i.ibb.co/JBGr0jb/Image-5-728x90.png", affLink:"https://bit.ly/3ePUoFB"},
+    {imgLink:"https://www.forextriplehit.com/images/bnr-728x90.png", affLink:"https://bit.ly/3EUfJIf"},
+    {imgLink:"https://fiboquantum.com/banners/728-90.gif", affLink:"https://bit.ly/3FW4aSg"},
+    {imgLink:"https://fiboquantumscalper.com/banners/728-90.gif", affLink:"https://bit.ly/3pTqsyz"},
+    {imgLink:"https://www.dnascalper.com/banners/728-90.gif", affLink:"https://bit.ly/3FWROtl"},
+    {imgLink:"https://xtrendpremium.com/banners/728-90.gif", affLink:"https://bit.ly/34ps0rN"},
+    {imgLink:"https://www.forexmonarch.com/banners/728-90.gif", affLink:"https://bit.ly/3JG8wzb"},
+    {imgLink:"https://central.ck-cdn.com/fiverr/2021-04-08/General-728x90-B_51d1d2fd.jpg", affLink:"https://bit.ly/3pUYSAX"},
+    {imgLink:"https://central.ck-cdn.com/fiverr/2021-04-08/General-728x90-B-1_2a5804d8.jpg", affLink:"https://bit.ly/3pUYSAX"})
     
 
-function ftzaChoose() {
+function ztcrChoose() {
   var randomNum = Math.floor(Math.random() * common30x25.length);
   document.getElementById("325ca1").src = common30x25[randomNum].imgLink;
   document.getElementById("325ca1l").href = common30x25[randomNum].affLink;
@@ -82,25 +107,34 @@ function ftzaChoose() {
   var randomNum = Math.floor(Math.random() * commonSolos.length);
   document.getElementById("scc").src = commonSolos[randomNum].imgLink;
   document.getElementById("sccl").href = commonSolos[randomNum].affLink;
-  var randomNum = Math.floor(Math.random() * ftza30x25.length);
-  document.getElementById("325ftzaa1").src = ftza30x25[randomNum].imgLink;
-  document.getElementById("325ftzaa1l").href = ftza30x25[randomNum].affLink;
-  var randomNum = Math.floor(Math.random() * ftza30x25.length);
-  document.getElementById("325ftzaa2").src = ftza30x25[randomNum].imgLink;
-  document.getElementById("325ftzaa2l").href = ftza30x25[randomNum].affLink;
-  var randomNum = Math.floor(Math.random() * ftza30x25.length);
-  document.getElementById("325ftzab1").src = ftza30x25[randomNum].imgLink;
-  document.getElementById("325ftzab1l").href = ftza30x25[randomNum].affLink;
-  var randomNum = Math.floor(Math.random() * ftza30x25.length);
-  document.getElementById("325ftzab2").src = ftza30x25[randomNum].imgLink;
-  document.getElementById("325ftzab2l").href = ftza30x25[randomNum].affLink;
-  var randomNum = Math.floor(Math.random() * ftza30x25.length);
-  document.getElementById("325ftzac1").src = ftza30x25[randomNum].imgLink;
-  document.getElementById("325ftzac1l").href = ftza30x25[randomNum].affLink;
-  var randomNum = Math.floor(Math.random() * ftza30x25.length);
-  document.getElementById("325ftzac2").src = ftza30x25[randomNum].imgLink;
-  document.getElementById("325ftzac2l").href = ftza30x25[randomNum].affLink;
-  var randomNum = Math.floor(Math.random() * ftzafooter.length);
-  document.getElementById("fftzaa").src = ftzafooter[randomNum].imgLink;
-  document.getElementById("fftzaal").href = ftzafooter[randomNum].affLink;  
+  var randomNum = Math.floor(Math.random() * ztcr30x25.length);
+  document.getElementById("325ztcra1").src = ztcr30x25[randomNum].imgLink;
+  document.getElementById("325ztcra1l").href = ztcr30x25[randomNum].affLink;
+  var randomNum = Math.floor(Math.random() * ztcr30x25.length);
+  document.getElementById("325ztcra2").src = ztcr30x25[randomNum].imgLink;
+  document.getElementById("325ztcra2l").href = ztcr30x25[randomNum].affLink;
+  var randomNum = Math.floor(Math.random() * ztcr30x25.length);
+  document.getElementById("325ztcrb1").src = ztcr30x25[randomNum].imgLink;
+  document.getElementById("325ztcrb1l").href = ztcr30x25[randomNum].affLink;
+  var randomNum = Math.floor(Math.random() * ztcr30x25.length);
+  document.getElementById("325ztcrb2").src = ztcr30x25[randomNum].imgLink;
+  document.getElementById("325ztcrb2l").href = ztcr30x25[randomNum].affLink;
+  var randomNum = Math.floor(Math.random() * ztcr30x25.length);
+  document.getElementById("325ztcrc1").src = ztcr30x25[randomNum].imgLink;
+  document.getElementById("325ztcrc1l").href = ztcr30x25[randomNum].affLink;
+  var randomNum = Math.floor(Math.random() * ztcr30x25.length);
+  document.getElementById("325ztcrc2").src = ztcr30x25[randomNum].imgLink;
+  document.getElementById("325ztcrc2l").href = ztcr30x25[randomNum].affLink;
+  var randomNum = Math.floor(Math.random() * ztcrsolos.length);
+  document.getElementById("sztcra").src = ztcrsolos[randomNum].imgLink;
+  document.getElementById("sztcral").href = ztcrsolos[randomNum].affLink;
+  var randomNum = Math.floor(Math.random() * ztcrsolos.length);
+  document.getElementById("sztcrb").src = ztcrsolos[randomNum].imgLink;
+  document.getElementById("sztcrbl").href = ztcrsolos[randomNum].affLink;
+  var randomNum = Math.floor(Math.random() * ztcrsolos.length);
+  document.getElementById("sztcrc").src = ztcrsolos[randomNum].imgLink;
+  document.getElementById("sztcrcl").href = ztcrsolos[randomNum].affLink;
+  var randomNum = Math.floor(Math.random() * ztcrfooter.length);
+  document.getElementById("fztcra").src = ztcrfooter[randomNum].imgLink;
+  document.getElementById("fztcral").href = ztcrfooter[randomNum].affLink;  
 }
