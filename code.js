@@ -13,4 +13,7 @@ function nmsChoose() {
     var randomNum = Math.floor(Math.random() * common30x25.length);
     document.getElementById("325ca1").src = common30x25[randomNum].imgLink;
     document.getElementById("325ca1l").href = common30x25[randomNum].affLink;
+    var randomNum = Math.floor(Math.random() * common30x25.length);
+    document.getElementById("325ca2").src = common30x25[randomNum].imgLink;
+    document.getElementById("325ca2l").href = common30x25[randomNum].affLink;
 }
