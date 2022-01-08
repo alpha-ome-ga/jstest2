@@ -1,19 +1,26 @@
 window.onload = choosePic;
 
-var common30x25 = new Array(
-  {imgLink:"https://www.ledgerwallet.com/affiliate/image/250/100", affLink:"https://bit.ly/32IYH36"},
-  {imgLink:"https://central.ck-cdn.com/fiverr/2021-04-08/General-300x250-A_ee088cbb.jpg", affLink:"https://bit.ly/3pUYSAX"},
-  {imgLink:"https://central.ck-cdn.com/fiverr/2021-04-08/General-300x250-A-1_588aaf4a.jpg", affLink:"https://bit.ly/3pUYSAX"},
-  {imgLink:"https://central.ck-cdn.com/fiverr/2021-03-30/1029General300x250A_bb1b507f.jpg", affLink:"https://bit.ly/3FWSkYj"},
-  {imgLink:"https://central.ck-cdn.com/fiverr/2021-03-30/5734General300x250A_c8804f01.jpg", affLink:"https://bit.ly/3FWSkYj"},
-  {imgLink:"https://central.ck-cdn.com/fiverr/2021-03-30/3842General300x250A1_b9b491e0.jpg", affLink:"https://bit.ly/3FWSkYj"},
-  {imgLink:"https://bluehost-cdn.com/media/partner/images/cashomega/300x250/300x250BW.png", affLink:"https://bit.ly/3gW7ocf"}) 
+var myImgsA = new Array(
+  {imgLink:"https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500", 
+  affLink:"https://www.gmail.com"}, 
+  {imgLink:"https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500", 
+  affLink:"https://www.google.com"},
+  {imgLink:"https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500", 
+  affLink:"https://www.youtube.com"})
 
-function nmsChoose() {
-    var randomNum = Math.floor(Math.random() * common30x25.length);
-    document.getElementById("325ca1").src = common30x25[randomNum].imgLink;
-    document.getElementById("325ca1l").href = common30x25[randomNum].affLink;
-    var randomNum = Math.floor(Math.random() * common30x25.length);
-    document.getElementById("325ca2").src = common30x25[randomNum].imgLink;
-    document.getElementById("325ca2l").href = common30x25[randomNum].affLink;
+var myImgsB = new Array(
+  {imgLink:"https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500", 
+  affLink:"https://www.gmail.com"}, 
+  {imgLink:"https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500", 
+  affLink:"https://www.google.com"},
+  {imgLink:"https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500", 
+  affLink:"https://www.youtube.com"})  
+
+function choosePic() {
+     var randomNum = Math.floor(Math.random() * myImgsA.length);
+     document.getElementById("myPicture1").src = myImgsA[randomNum].imgLink;
+     document.getElementById("myLink1").href = myImgsA[randomNum].affLink;
+     var randomNum = Math.floor(Math.random() * myImgsB.length);
+     document.getElementById("myPicture2").src = myImgsB[randomNum].imgLink;
+     document.getElementById("myLink2").href = myImgsB[randomNum].affLink;
 }
