@@ -1,4 +1,4 @@
-window.onload = ztcrChoose;
+window.onload = ztsaChoose;
 
   var common30x25 = new Array(
   {imgLink:"https://www.ledgerwallet.com/affiliate/image/250/100", affLink:"https://bit.ly/32IYH36"},
@@ -36,47 +36,110 @@ window.onload = ztcrChoose;
   {imgLink:"https://i.ibb.co/8bJJLkb/PLOLifestyle-8-Slider.jpg", affLink:"https://bit.ly/3FYqKK8"},
   {imgLink:"https://i.ibb.co/7VVTqjQ/PLOLifestyle-9-Slider.jpg", affLink:"https://bit.ly/3FYqKK8"})
   
-  var ztcr30x25 = new Array(
-    {imgLink:"https://i.ibb.co/chJJs37/Image-1-300x250.png", affLink:"https://bit.ly/3ePUoFB"},
-    {imgLink:"https://i.ibb.co/5TBfJdP/Image-2-300x250.png", affLink:"https://bit.ly/3ePUoFB"},
-    {imgLink:"https://i.ibb.co/HP8v25k/Image-3-300x250.png", affLink:"https://bit.ly/3ePUoFB"},
-    {imgLink:"https://i.ibb.co/dgNT2D9/Image-4-300x250.png", affLink:"https://bit.ly/3ePUoFB"},
-    {imgLink:"https://i.ibb.co/vLZz36f/Image-5-300x250.png", affLink:"https://bit.ly/3ePUoFB"},
-    {imgLink:"https://www.forextriplehit.com/images/bnr-300x250.png", affLink:"https://bit.ly/3EUfJIf"},
-    {imgLink:"https://fiboquantum.com/banners/300-250.gif", affLink:"https://bit.ly/3FW4aSg"},
-    {imgLink:"https://fiboquantumscalper.com/banners/300-250.gif", affLink:"https://bit.ly/3pTqsyz"},
-    {imgLink:"https://www.dnascalper.com/banners/300-250.gif", affLink:"https://bit.ly/3FWROtl"},
-    {imgLink:"https://xtrendpremium.com/banners/300-250.gif", affLink:"https://bit.ly/34ps0rN"},
-    {imgLink:"https://www.forexmonarch.com/banners/300-250.gif", affLink:"https://bit.ly/3JG8wzb"},
-    {imgLink:"https://central.ck-cdn.com/fiverr/2021-04-08/General-300x250-A_ee088cbb.jpg", affLink:"https://bit.ly/3pUYSAX"},
-    {imgLink:"https://central.ck-cdn.com/fiverr/2021-04-08/General-300x250-A-1_588aaf4a.jpg", affLink:"https://bit.ly/3pUYSAX"})
+  var ztsa30x25 = new Array(
+    {imgLink:"https://s3.amazonaws.com/bei/hso/Party/SaladParty_300x250.gif", affLink:"https://bit.ly/2SbV0gX"},
+    {imgLink:"https://s3.amazonaws.com/bei/hso/Vintage/VINTAGE_300x250.gif", affLink:"https://bit.ly/2SbV0gX"},
+    {imgLink:"https://s3.amazonaws.com/bei/hso/Party/SaladParty_300x250.gif", affLink:"https://bit.ly/2SbV0gX"},
+    {imgLink:"https://s3.amazonaws.com/bei/hso/Vintage/VINTAGE_300x250.gif", affLink:"https://bit.ly/2SbV0gX"},
+    {imgLink:"https://i.ibb.co/YQ2hPjt/Relat-Rewire-Method-300-250-01-min.jpg", affLink:"https://bit.ly/3vHtntT"},
+    {imgLink:"https://i.ibb.co/9T1t5Ht/Relat-Rewire-Method-300-250-02-min.jpg", affLink:"https://bit.ly/3vHtntT"},
+    {imgLink:"https://i.ibb.co/pvmnfV1/Relat-Rewire-Method-300-250-03-min.jpg", affLink:"https://bit.ly/3vHtntT"},
+    {imgLink:"https://i.ibb.co/dfCm2r7/Relat-Rewire-Method-300-250-04-min.jpg", affLink:"https://bit.ly/3vHtntT"},
+    {imgLink:"https://i.ibb.co/Mh9Qwsv/Relat-Rewire-Method-300-250-05-min.jpg", affLink:"https://bit.ly/3vHtntT"},
+    {imgLink:"https://i.ibb.co/0K02DNm/Relat-Rewire-Method-300-250-06-min.jpg", affLink:"https://bit.ly/3vHtntT"},
+    {imgLink:"https://i.ibb.co/fG0mSD8/Relat-Rewire-Method-300-250-07-min.jpg", affLink:"https://bit.ly/3vHtntT"},
+    {imgLink:"https://i.ibb.co/yq8k9Kg/Relat-Rewire-Method-300-250-08-min.jpg", affLink:"https://bit.ly/3vHtntT"},
+    {imgLink:"https://i.ibb.co/tCWg0Rb/Relat-Rewire-Method-300-250-09-min.jpg", affLink:"https://bit.ly/3vHtntT"},
+    {imgLink:"https://i.ibb.co/Yf9nR0V/RRM-301-250-02-min.jpg", affLink:"https://bit.ly/3vHtntT"},
+    {imgLink:"https://i.ibb.co/c6f6xrs/RRM-301-250-05-2-min.jpg", affLink:"https://bit.ly/3vHtntT"},
+    {imgLink:"https://i.ibb.co/8r3fLDy/RRM-301-250-07-min.jpg", affLink:"https://bit.ly/3vHtntT"},
+    {imgLink:"https://i.ibb.co/vZCpYcr/RRM-301-250-09-min.jpg", affLink:"https://bit.ly/3vHtntT"})
     
-    var ztcrsolos = new Array(
-    {imgLink:"https://i.ibb.co/0q701M5/Image-1-1200x628.png", affLink:"https://bit.ly/3ePUoFB"},
-    {imgLink:"https://i.ibb.co/tDJB9Ps/Image-2-1200x628.png", affLink:"https://bit.ly/3ePUoFB"},
-    {imgLink:"https://i.ibb.co/zFvpFJr/Image-3-1200x628.png", affLink:"https://bit.ly/3ePUoFB"},
-    {imgLink:"https://i.ibb.co/TYsJ596/Image-4-1200x628.png", affLink:"https://bit.ly/3ePUoFB"},
-    {imgLink:"https://i.ibb.co/SBbSh45/Image-5-1200x628.png", affLink:"https://bit.ly/3ePUoFB"},
-    {imgLink:"https://central.ck-cdn.com/fiverr/2021-04-08/General_16X9_7894bae7.jpg", affLink:"https://bit.ly/3pUYSAX"},
-    {imgLink:"https://central.ck-cdn.com/fiverr/2021-04-08/General_16X9-1_c606993b.jpg", affLink:"https://bit.ly/3pUYSAX"})
+    var ztsasolos = new Array(
+    {imgLink:"https://s3.amazonaws.com/bei/hso/Study/74_2.png", affLink:"https://bit.ly/2SbV0gX"},
+    {imgLink:"https://s3.amazonaws.com/bei/hso/Study/74_3.png", affLink:"https://bit.ly/2SbV0gX"},
+    {imgLink:"https://s3.amazonaws.com/bei/hso/Study/74_5.png", affLink:"https://bit.ly/2SbV0gX"},
+    {imgLink:"https://s3.amazonaws.com/bei/hso/Study/STUDY_2.png", affLink:"https://bit.ly/2SbV0gX"},
+    {imgLink:"https://s3.amazonaws.com/bei/hso/Study/STUDY_4.png", affLink:"https://bit.ly/2SbV0gX"},
+    {imgLink:"https://s3.amazonaws.com/bei/hso/Study/STUDY_5.png", affLink:"https://bit.ly/2SbV0gX"},
+    {imgLink:"https://s3.amazonaws.com/bei/hso/Study/STUDY_7.png", affLink:"https://bit.ly/2SbV0gX"},
+    {imgLink:"https://s3.amazonaws.com/bei/hso/Vintage/BI_7.png", affLink:"https://bit.ly/2SbV0gX"},
+    {imgLink:"https://s3.amazonaws.com/bei/hso/Vintage/VINTAGE_1_white.png", affLink:"https://bit.ly/2SbV0gX"},
+    {imgLink:"https://s3.amazonaws.com/bei/hso/Vintage/VINTAGE_3.png", affLink:"https://bit.ly/2SbV0gX"},
+    {imgLink:"https://s3.amazonaws.com/bei/hso/Vintage/VINTAGE_336x280.gif", affLink:"https://bit.ly/2SbV0gX"},
+    {imgLink:"https://s3.amazonaws.com/bei/hso/Vintage/VINTAGE_6_pink.png", affLink:"https://bit.ly/2SbV0gX"},
+    {imgLink:"https://s3.amazonaws.com/bei/hso/Vintage/VINTAGE_7.png", affLink:"https://bit.ly/2SbV0gX"},
+    {imgLink:"https://s3.amazonaws.com/bei/hso/Vintage/VINTAGE_7_3.png", affLink:"https://bit.ly/2SbV0gX"},
+    {imgLink:"https://s3.amazonaws.com/bei/hso/Vintage/vintage_4_white.png", affLink:"https://bit.ly/2SbV0gX"},
+    {imgLink:"https://s3.amazonaws.com/bei/hso/ExBack/ML_32.png", affLink:"https://bit.ly/2SbV0gX"},
+    {imgLink:"https://s3.amazonaws.com/bei/hso/ExBack/REASON_1.png", affLink:"https://bit.ly/2SbV0gX"},
+    {imgLink:"https://s3.amazonaws.com/bei/hso/ExBack/LM_1.png", affLink:"https://bit.ly/2SbV0gX"},
+    {imgLink:"https://s3.amazonaws.com/bei/hso/ExBack/DUMP_1.png", affLink:"https://bit.ly/2SbV0gX"},
+    {imgLink:"https://s3.amazonaws.com/bei/hso/ExBack/BUMU_1.png", affLink:"https://bit.ly/2SbV0gX"},
+    {imgLink:"https://s3.amazonaws.com/bei/hso/ExBack/DOOR_10.png", affLink:"https://bit.ly/2SbV0gX"},
+    {imgLink:"https://s3.amazonaws.com/bei/hso/ExBack/ML_1.png", affLink:"https://bit.ly/2SbV0gX"},
+    {imgLink:"https://s3.amazonaws.com/bei/hso/ExBack/ML_2.png", affLink:"https://bit.ly/2SbV0gX"},
+    {imgLink:"https://s3.amazonaws.com/bei/hso/ExBack/DOOR_1.png", affLink:"https://bit.ly/2SbV0gX"},
+    {imgLink:"https://s3.amazonaws.com/bei/hso/ExBack/WMW_1.png", affLink:"https://bit.ly/2SbV0gX"},
+    {imgLink:"https://s3.amazonaws.com/bei/hso/ExBack/stop_4.png", affLink:"https://bit.ly/2SbV0gX"},
+    {imgLink:"https://s3.amazonaws.com/bei/hso/Text/text_1.png", affLink:"https://bit.ly/2SbV0gX"},
+    {imgLink:"https://s3.amazonaws.com/bei/hso/Text/text_2.png", affLink:"https://bit.ly/2SbV0gX"},
+    {imgLink:"https://s3.amazonaws.com/bei/hso/Text/text_4.png", affLink:"https://bit.ly/2SbV0gX"},
+    {imgLink:"https://s3.amazonaws.com/bei/hso/Text/textmessage_rough.png", affLink:"https://bit.ly/2SbV0gX"},
+    {imgLink:"https://s3.amazonaws.com/bei/hso/Text/text_1.png", affLink:"https://bit.ly/2SbV0gX"},
+    {imgLink:"https://s3.amazonaws.com/bei/hso/Text/text_2.png", affLink:"https://bit.ly/2SbV0gX"},
+    {imgLink:"https://s3.amazonaws.com/bei/hso/Text/text_4.png", affLink:"https://bit.ly/2SbV0gX"},
+    {imgLink:"https://s3.amazonaws.com/bei/hso/Text/textmessage_rough.png", affLink:"https://bit.ly/2SbV0gX"},
+    {imgLink:"https://s3.amazonaws.com/bei/hso/Text/text_1.png", affLink:"https://bit.ly/2SbV0gX"},
+    {imgLink:"https://s3.amazonaws.com/bei/hso/Text/text_2.png", affLink:"https://bit.ly/2SbV0gX"},
+    {imgLink:"https://s3.amazonaws.com/bei/hso/Text/text_4.png", affLink:"https://bit.ly/2SbV0gX"},
+    {imgLink:"https://s3.amazonaws.com/bei/hso/Text/textmessage_rough.png", affLink:"https://bit.ly/2SbV0gX"},
+    {imgLink:"https://s3.amazonaws.com/bei/hso/pullAway/PullAway1.jpg", affLink:"https://bit.ly/2SbV0gX"},
+    {imgLink:"https://s3.amazonaws.com/bei/hso/pullAway/PullAway2.jpg", affLink:"https://bit.ly/2SbV0gX"},
+    {imgLink:"https://s3.amazonaws.com/bei/hso/pullAway/PullAway3.jpg", affLink:"https://bit.ly/2SbV0gX"},
+    {imgLink:"https://s3.amazonaws.com/bei/hso/pullAway/PullAway4.jpg", affLink:"https://bit.ly/2SbV0gX"},
+    {imgLink:"https://s3.amazonaws.com/bei/hso/pullAway/PullAway5.jpg", affLink:"https://bit.ly/2SbV0gX"},
+    {imgLink:"https://s3.amazonaws.com/bei/hso/pullAway/PullAway6.jpg", affLink:"https://bit.ly/2SbV0gX"},
+    {imgLink:"https://s3.amazonaws.com/bei/hso/pullAway/PullAway7.jpg", affLink:"https://bit.ly/2SbV0gX"},
+    {imgLink:"https://i.ibb.co/HGPQyt4/Relat-Rewire-Method-336-280-01-min.jpg", affLink:"https://bit.ly/3vHtntT"},
+    {imgLink:"https://i.ibb.co/KhnJQZW/Relat-Rewire-Method-336-280-02-min.jpg", affLink:"https://bit.ly/3vHtntT"},
+    {imgLink:"https://i.ibb.co/M528ZJX/Relat-Rewire-Method-336-280-03-min.jpg", affLink:"https://bit.ly/3vHtntT"},
+    {imgLink:"https://i.ibb.co/hCZkbNc/Relat-Rewire-Method-336-280-04-min.jpg", affLink:"https://bit.ly/3vHtntT"},
+    {imgLink:"https://i.ibb.co/SNRMsGQ/Relat-Rewire-Method-336-280-05-min.jpg", affLink:"https://bit.ly/3vHtntT"},
+    {imgLink:"https://i.ibb.co/K91BSqr/Relat-Rewire-Method-336-280-06-min.jpg", affLink:"https://bit.ly/3vHtntT"},
+    {imgLink:"https://i.ibb.co/mX3Ng6J/Relat-Rewire-Method-336-280-07-min.jpg", affLink:"https://bit.ly/3vHtntT"},
+    {imgLink:"https://i.ibb.co/gFdHQRj/Relat-Rewire-Method-336-280-08-min.jpg", affLink:"https://bit.ly/3vHtntT"},
+    {imgLink:"https://i.ibb.co/Cb95CKR/Relat-Rewire-Method-336-280-09-min.jpg", affLink:"https://bit.ly/3vHtntT"},
+    {imgLink:"https://i.ibb.co/ynpKmwg/RRM-337-280-02-2-min.jpg", affLink:"https://bit.ly/3vHtntT"},
+    {imgLink:"https://i.ibb.co/cyD06TQ/RRM-337-280-07-min.jpg", affLink:"https://bit.ly/3vHtntT"},
+    {imgLink:"https://i.ibb.co/f0z7pHD/RRM-337-280-08-min.jpg", affLink:"https://bit.ly/3vHtntT"},
+    {imgLink:"https://i.ibb.co/qdc7sYc/RRM-337-280-09-min.jpg", affLink:"https://bit.ly/3vHtntT"},
+    {imgLink:"https://s3.amazonaws.com/bei/hso/pullAway/PullAway1.jpg", affLink:"https://bit.ly/3vHtntT"},
+    {imgLink:"https://s3.amazonaws.com/bei/hso/pullAway/PullAway2.jpg", affLink:"https://bit.ly/3vHtntT"},
+    {imgLink:"https://s3.amazonaws.com/bei/hso/pullAway/PullAway3.jpg", affLink:"https://bit.ly/3vHtntT"},
+    {imgLink:"https://s3.amazonaws.com/bei/hso/pullAway/PullAway4.jpg", affLink:"https://bit.ly/3vHtntT"})
     
-    var ztcrfooter = new Array(
-    {imgLink:"https://i.ibb.co/jwvWbVd/Image-1-728x90-copy.png", affLink:"https://bit.ly/3ePUoFB"},
-    {imgLink:"https://i.ibb.co/vs4sfWC/Image-2-728x90.png", affLink:"https://bit.ly/3ePUoFB"},
-    {imgLink:"https://i.ibb.co/LQTprnw/Image-3-728x90.png", affLink:"https://bit.ly/3ePUoFB"},
-    {imgLink:"https://i.ibb.co/86QN56P/Image-4-728x90.png", affLink:"https://bit.ly/3ePUoFB"},
-    {imgLink:"https://i.ibb.co/JBGr0jb/Image-5-728x90.png", affLink:"https://bit.ly/3ePUoFB"},
-    {imgLink:"https://www.forextriplehit.com/images/bnr-728x90.png", affLink:"https://bit.ly/3EUfJIf"},
-    {imgLink:"https://fiboquantum.com/banners/728-90.gif", affLink:"https://bit.ly/3FW4aSg"},
-    {imgLink:"https://fiboquantumscalper.com/banners/728-90.gif", affLink:"https://bit.ly/3pTqsyz"},
-    {imgLink:"https://www.dnascalper.com/banners/728-90.gif", affLink:"https://bit.ly/3FWROtl"},
-    {imgLink:"https://xtrendpremium.com/banners/728-90.gif", affLink:"https://bit.ly/34ps0rN"},
-    {imgLink:"https://www.forexmonarch.com/banners/728-90.gif", affLink:"https://bit.ly/3JG8wzb"},
-    {imgLink:"https://central.ck-cdn.com/fiverr/2021-04-08/General-728x90-B_51d1d2fd.jpg", affLink:"https://bit.ly/3pUYSAX"},
-    {imgLink:"https://central.ck-cdn.com/fiverr/2021-04-08/General-728x90-B-1_2a5804d8.jpg", affLink:"https://bit.ly/3pUYSAX"})
+    var ztsafooter = new Array(
+    {imgLink:"https://s3.amazonaws.com/bei/hso/Party/SaladParty_728x90.gif", affLink:"https://bit.ly/2SbV0gX"},
+    {imgLink:"https://s3.amazonaws.com/bei/hso/Vintage/VINTAGE_468x60.gif", affLink:"https://bit.ly/2SbV0gX"},
+    {imgLink:"https://s3.amazonaws.com/bei/hso/Vintage/VINTAGE_468x60_2.gif", affLink:"https://bit.ly/2SbV0gX"},
+    {imgLink:"https://s3.amazonaws.com/bei/hso/Text/Text_468x60.gif", affLink:"https://bit.ly/2SbV0gX"},
+    {imgLink:"https://i.ibb.co/3dXtB29/Relat-Rewire-Method-728-01-min.jpg", affLink:"https://bit.ly/3vHtntT"},
+    {imgLink:"https://i.ibb.co/1Jrxdyf/Relat-Rewire-Method-728-02-min.jpg", affLink:"https://bit.ly/3vHtntT"},
+    {imgLink:"https://i.ibb.co/x5XrBM6/Relat-Rewire-Method-728-03-min.jpg", affLink:"https://bit.ly/3vHtntT"},
+    {imgLink:"https://i.ibb.co/RT8yXMh/Relat-Rewire-Method-728-04-min.jpg", affLink:"https://bit.ly/3vHtntT"},
+    {imgLink:"https://i.ibb.co/fkVmJSb/Relat-Rewire-Method-728-05-min.jpg", affLink:"https://bit.ly/3vHtntT"},
+    {imgLink:"https://i.ibb.co/PC6zhxR/Relat-Rewire-Method-728-06-min.jpg", affLink:"https://bit.ly/3vHtntT"},
+    {imgLink:"https://i.ibb.co/dt2zP0F/Relat-Rewire-Method-728-07-min.jpg", affLink:"https://bit.ly/3vHtntT"},
+    {imgLink:"https://i.ibb.co/JCxtN2R/Relat-Rewire-Method-728-09-min.jpg", affLink:"https://bit.ly/3vHtntT"},
+    {imgLink:"https://i.ibb.co/Fn8hdhW/RRM-729-02-min.jpg", affLink:"https://bit.ly/3vHtntT"},
+    {imgLink:"https://i.ibb.co/DfLD5hg/RRM-729-03-min.jpg", affLink:"https://bit.ly/3vHtntT"},
+    {imgLink:"https://i.ibb.co/x5kJD2x/RRM-729-05-min.jpg", affLink:"https://bit.ly/3vHtntT"},
+    {imgLink:"https://i.ibb.co/FWPX8mk/RRM-729-06-min.jpg", affLink:"https://bit.ly/3vHtntT"},
+    {imgLink:"https://i.ibb.co/MpmsDpb/RRM-729-07-min.jpg", affLink:"https://bit.ly/3vHtntT"})
     
 
-function ztcrChoose() {
+function ztsaChoose() {
   var randomNum = Math.floor(Math.random() * common30x25.length);
   document.getElementById("325ca1").src = common30x25[randomNum].imgLink;
   document.getElementById("325ca1l").href = common30x25[randomNum].affLink;
@@ -108,33 +171,33 @@ function ztcrChoose() {
   document.getElementById("scc").src = commonSolos[randomNum].imgLink;
   document.getElementById("sccl").href = commonSolos[randomNum].affLink;
   var randomNum = Math.floor(Math.random() * ztcr30x25.length);
-  document.getElementById("325ztcra1").src = ztcr30x25[randomNum].imgLink;
-  document.getElementById("325ztcra1l").href = ztcr30x25[randomNum].affLink;
+  document.getElementById("325ztsaa1").src = ztcr30x25[randomNum].imgLink;
+  document.getElementById("325ztsaa1l").href = ztcr30x25[randomNum].affLink;
   var randomNum = Math.floor(Math.random() * ztcr30x25.length);
-  document.getElementById("325ztcra2").src = ztcr30x25[randomNum].imgLink;
-  document.getElementById("325ztcra2l").href = ztcr30x25[randomNum].affLink;
+  document.getElementById("325ztsaa2").src = ztcr30x25[randomNum].imgLink;
+  document.getElementById("325ztsaa2l").href = ztcr30x25[randomNum].affLink;
   var randomNum = Math.floor(Math.random() * ztcr30x25.length);
-  document.getElementById("325ztcrb1").src = ztcr30x25[randomNum].imgLink;
-  document.getElementById("325ztcrb1l").href = ztcr30x25[randomNum].affLink;
+  document.getElementById("325ztsab1").src = ztcr30x25[randomNum].imgLink;
+  document.getElementById("325ztsab1l").href = ztcr30x25[randomNum].affLink;
   var randomNum = Math.floor(Math.random() * ztcr30x25.length);
-  document.getElementById("325ztcrb2").src = ztcr30x25[randomNum].imgLink;
-  document.getElementById("325ztcrb2l").href = ztcr30x25[randomNum].affLink;
+  document.getElementById("325ztsab2").src = ztcr30x25[randomNum].imgLink;
+  document.getElementById("325ztsab2l").href = ztcr30x25[randomNum].affLink;
   var randomNum = Math.floor(Math.random() * ztcr30x25.length);
-  document.getElementById("325ztcrc1").src = ztcr30x25[randomNum].imgLink;
-  document.getElementById("325ztcrc1l").href = ztcr30x25[randomNum].affLink;
+  document.getElementById("325ztsac1").src = ztcr30x25[randomNum].imgLink;
+  document.getElementById("325ztsac1l").href = ztcr30x25[randomNum].affLink;
   var randomNum = Math.floor(Math.random() * ztcr30x25.length);
-  document.getElementById("325ztcrc2").src = ztcr30x25[randomNum].imgLink;
-  document.getElementById("325ztcrc2l").href = ztcr30x25[randomNum].affLink;
+  document.getElementById("325ztsac2").src = ztcr30x25[randomNum].imgLink;
+  document.getElementById("325ztsac2l").href = ztcr30x25[randomNum].affLink;
   var randomNum = Math.floor(Math.random() * ztcrsolos.length);
-  document.getElementById("sztcra").src = ztcrsolos[randomNum].imgLink;
-  document.getElementById("sztcral").href = ztcrsolos[randomNum].affLink;
+  document.getElementById("sztsaa").src = ztcrsolos[randomNum].imgLink;
+  document.getElementById("sztsaal").href = ztcrsolos[randomNum].affLink;
   var randomNum = Math.floor(Math.random() * ztcrsolos.length);
-  document.getElementById("sztcrb").src = ztcrsolos[randomNum].imgLink;
-  document.getElementById("sztcrbl").href = ztcrsolos[randomNum].affLink;
+  document.getElementById("sztsab").src = ztcrsolos[randomNum].imgLink;
+  document.getElementById("sztsabl").href = ztcrsolos[randomNum].affLink;
   var randomNum = Math.floor(Math.random() * ztcrsolos.length);
-  document.getElementById("sztcrc").src = ztcrsolos[randomNum].imgLink;
-  document.getElementById("sztcrcl").href = ztcrsolos[randomNum].affLink;
+  document.getElementById("sztsac").src = ztcrsolos[randomNum].imgLink;
+  document.getElementById("sztsacl").href = ztcrsolos[randomNum].affLink;
   var randomNum = Math.floor(Math.random() * ztcrfooter.length);
-  document.getElementById("fztcra").src = ztcrfooter[randomNum].imgLink;
-  document.getElementById("fztcral").href = ztcrfooter[randomNum].affLink;  
+  document.getElementById("fztsaa").src = ztcrfooter[randomNum].imgLink;
+  document.getElementById("fztsaal").href = ztcrfooter[randomNum].affLink;  
 }
